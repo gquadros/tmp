@@ -1,1 +1,3 @@
-xxx
+schemaVersion: 2.2.0
+parent:
+  uri: xxxxxx
