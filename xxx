@@ -3,6 +3,8 @@ metadata:
   name: mydevfile
 components:
   - name: go
+    attributes:
+      gl/inject-editor: true
     container:
       image: golang
       memoryLimit: 512Mi
