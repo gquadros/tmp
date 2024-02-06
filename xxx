@@ -1,2 +1,10 @@
 schemaVersion: 2.2.0
-
+metadata:
+  name: mydevfile
+components:
+  - name: go
+    container:
+      image: golang
+      memoryLimit: 512Mi
+      mountSources: true
+      command: ['sleep', 'infinity']
